@@ -5,7 +5,7 @@ import {
   BottomTabBar,
 } from "@react-navigation/bottom-tabs";
 
-import { Home, TimeTable, Marks } from "../screens";
+import { Home, TimeTable, Marks, Profile } from "../screens";
 import { COLORS, FONTS, icons } from "../constants";
 
 const Tab = createBottomTabNavigator();
@@ -72,7 +72,7 @@ const Tabs = () => {
       />
       <Tab.Screen
         name="Profile"
-        component={Home}
+        component={Profile}
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={styles.tapScreenView}>

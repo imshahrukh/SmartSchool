@@ -19,6 +19,7 @@ const english = require("../assets/icons/english.png");
 const chemistry = require("../assets/icons/chemistry.png");
 const art = require("../assets/icons/art.png");
 const football = require("../assets/icons/football.jpg");
+const st = require("../assets/icons/st.jpg");
 
 export default {
   back_arrow,
@@ -42,4 +43,5 @@ export default {
   art,
   chemistry,
   football,
+  st,
 };
